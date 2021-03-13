@@ -1,4 +1,4 @@
-# day-planner
+# work-day-scheduler
 
 
 ## Screenshot
@@ -12,4 +12,4 @@
 
 
 ## Deployed Application URL
-[day-planner](https://ssharmin0029.github.io/day-planner/)
+[work-day-scheduler](https://ssharmin0029.github.io/work-day-scheduler/)
