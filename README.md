@@ -1,6 +1,9 @@
 # day-planner
 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Screenshot
 ![alt text](assets/images/final-page-1.png)
 ![alt text](assets/images/final-page-2.png)
@@ -9,6 +12,14 @@
 
 
 ## Description 
+
+Technologies Used: 
+- HTML
+- CSS
+- JS
+- jQuery
+- Moment Librabry
+- icons
 
 
 ## Deployed Application URL
