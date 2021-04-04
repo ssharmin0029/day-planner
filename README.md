@@ -11,7 +11,7 @@
 
 ## Description 
 
-
+## Technologies Used 
 
 ## Deployed Application URL
 [day-planner](https://ssharmin0029.github.io/day-planner/)
