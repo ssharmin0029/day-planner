@@ -1,0 +1,99 @@
+:root {
+  --header-color: rgb(36, 43, 67);
+  --txt-color: rgb(14, 20, 26);
+  --btn-bg-color: rgb(164, 182, 203);
+  --btn-txt-color: rgb(249, 248, 255);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+}
+
+.time-block textarea{
+  border: none;
+  resize: none;
+  color: rgb(251, 251, 249);
+  border-left: outset;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(249, 245, 247);
+  color: var(--header-color);
+  border-radius: 0;
+  border-bottom: 10px inset var(--header-color);
+}
+
+header #currentDay:hover {
+  background-color: rgb(250, 235, 215);
+}
+
+#clearBtn {
+  margin-top: 10px;
+  border-radius: 15px;
+  height: 50px;
+  width: 180px;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-txt-color);
+  font-weight: bold;
+}
+
+#clearBtn:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.desc {
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--btn-txt-color);
+}
+
+.hour {
+  background-color: rgb(227, 234, 242);
+  color: rgb(7, 10, 13);
+  border-top: outset;
+  border-left: outset;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.past {
+  background-color: rgb(189, 206, 217);
+  color: var(--txt-color);
+}
+
+.present {
+  background-color: rgb(209, 178, 177);
+  color: var(--txt-color);
+}
+
+.future {
+  background-color: rgb(196, 206, 189);
+  color: var(--txt-color);
+}
+
+.saveBtn {
+  border-left: 1px ridge rgb(60, 86, 104);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-txt-color);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
