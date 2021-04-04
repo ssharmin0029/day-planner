@@ -16,8 +16,7 @@
 - HTML + Font Awesome 
 - CSS + Bootstrap 
 - JS + jQuery
-- Moment Librabry
-
+- Moment Library
 
 
 ## Deployed Application URL
