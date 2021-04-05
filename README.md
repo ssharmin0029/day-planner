@@ -20,7 +20,7 @@ There was a lot to learn and use on top of what we already know in order to buil
 ## Technologies Used 
 - HTML + Font Awesome 
 - CSS + Bootstrap 
-- JS + jQuery
+- JavaScript + jQuery
 - Moment.js Library
 
 
