@@ -18,8 +18,8 @@ $(document).ready(function () {
 // Saves the text area values in the local storage, using their parent IDs
 function handleSave(event) {
     var target = $(event.target);
-    var textAreaVal = target.siblings('textarea').val() || target.closest('button').siblings('textarea').val();
-    var parentID = target.parent().attr('id') || target.closest('button').parent().attr('id');
+    var textAreaVal = target.siblings('textarea').val();
+    var parentID = target.parent().attr('id');
     localStorage.setItem(parentID, textAreaVal);
 }
 
